@@ -83,12 +83,14 @@ div {
   padding: 5px;
 }
 
+/*
 .column {
   float: right;
   margin-right: 15px;
   width: 33.33%;
   padding: 5px;
 }
+*/
 
 /* Clear floats after image containers */
 .row::after {
