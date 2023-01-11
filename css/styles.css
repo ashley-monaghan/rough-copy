@@ -85,6 +85,9 @@ h5 {
 }
 */
 
+#table {
+  text-align: center;
+}
 .column {
   float: left;
   width: 33.33%;
