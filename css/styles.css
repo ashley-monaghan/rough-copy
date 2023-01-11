@@ -25,6 +25,18 @@ body {
   background-color: rgb(214 133 214);
 }
 
+.h1 {
+  text-align: center;
+}
+
+\n
+
+.h4 {
+  text-align: center;
+}
+
+\n
+
 p {
   color: black;
   font-family: Helvetica, Arial, sans-serif;
@@ -36,12 +48,4 @@ p {
 img {
   float: right;
   margin-right: 15px;
-}
-
-.h1 {
-  text-align: center;
-}
-
-.h4 {
-  text-align: center;
 }
