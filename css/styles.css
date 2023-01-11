@@ -34,7 +34,7 @@ h1 {
 }
 
 h4 {
-  color: black;
+  color: rgb(253 253 253);
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
@@ -42,7 +42,7 @@ h4 {
 }
 
 p {
-  color: black;
+  color: rgb(255 255 255);
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
@@ -64,31 +64,6 @@ div {
   color: #fff;
 }
 
-/* #flower2 {
-  width: 33.33%;
-  float: left;
-  margin-left: 15px;
-}
-
-h5 {
-  color: black;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  font-size: 1.5rem;
-  text-align: center;
-}
-
-#abc {
-  width: 33.33%;
-  float: right;
-  margin-right: 15px;
-}
-*/
-
-#table {
-  text-align: center;
-}
-
 .column {
   float: left;
   width: 25%;
@@ -100,4 +75,25 @@ h5 {
   content: "";
   clear: both;
   display: table;
+}
+
+
+#crystals {
+  width: 33.33%;
+  float: left;
+  margin-left: 15px;
+}
+
+#text {
+  color: rgb(248 246 246);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#zodiac {
+  width: 33.33%;
+  float: right;
+  margin-right: 15px;
 }
