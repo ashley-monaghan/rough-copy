@@ -1,0 +1,39 @@
+/* Created by: Ashley Monaghan
+* Created on: Oct 2022
+* This file contains the CSS for index.html
+*/
+
+.mdl-layout__header-row {
+  align-items: center;
+  justify-content: center;
+}
+
+.mdl-layout__content {
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 15pt;
+}
+
+/* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
+*/
+.mdl-ripple {
+  background: #000;
+  opacity: 0.001;
+}
+
+body {
+  background-color: rgb(251 217 238);
+}
+
+p {
+  color: black;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 15pt;
+}
+
+img {
+  float: right;
+  margin-right: 15px;
+}
