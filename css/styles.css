@@ -64,12 +64,12 @@ div {
   color: #fff;
 }
 
-.abc {
+#abc {
   float: right;
   margin-right: 15px;
 }
 
-.flower2 {
+#flower2 {
   float: left;
   margin-left: 15px;
 }
