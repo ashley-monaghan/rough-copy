@@ -18,15 +18,15 @@
 */
 .mdl-ripple {
   background: #000;
-  opacity: 0.001;
+  opacity: 0.01;
 }
 
 body {
-  background-color: rgb(214 133 214);
+  background-color: rgb(208 160 208);
 }
 
 h1 {
-  color: black;
+  color: rgb(255 255 255);
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
