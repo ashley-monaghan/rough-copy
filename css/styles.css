@@ -68,7 +68,6 @@ p {
   padding-top: 15pt;
 }
 
-
 h5 {
   color: rgb(253 253 253);
   font-family: Helvetica, Arial, sans-serif;
@@ -87,7 +86,7 @@ img {
 
 /* Links */
 
-a.homePage {
+a.home {
   color: #fff;
   text-align: right;
   font-size: medium;
