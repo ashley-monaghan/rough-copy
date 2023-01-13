@@ -3,7 +3,6 @@
 * This file contains the CSS for index.html
 */
 
-
 /* mdl stuff */
 
 .mdl-layout__header-row {
@@ -38,7 +37,6 @@ form {
 div {
   color: #fff;
 }
-
 
 /* Text colour stuff */
 
@@ -79,7 +77,6 @@ h5 {
   text-align: center;
 }
 
-
 /* Images */
 
 img {
@@ -88,11 +85,10 @@ img {
   margin-left: auto;
 }
 
-
 /* Links */
 
 a.homePage {
-  color: #ffffff;
+  color: #fff;
   text-align: right;
   font-size: medium;
   text-decoration: none;
