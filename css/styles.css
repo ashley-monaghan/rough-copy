@@ -21,6 +21,8 @@
   opacity: 0.01;
 }
 
+/* Basic stuff */
+
 body {
   background-color: #c8a2c8;
 }
@@ -72,12 +74,28 @@ h5 {
   text-align: center;
 }
 
+/* index1.html */
+
 img {
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
 
-#link {
-  text-align: right;
+/* index2.html */
+
+a.homePage {
+  color: #2da1c1;
+  font-size: small;
+  text-decoration: none;
+  float: right;
 }
+
+a.homePage:hover
+{
+  color: #f90;
+  text-decoration: underline;         
+}
+
+/* index3.html */
+
