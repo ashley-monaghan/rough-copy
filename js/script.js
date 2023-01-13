@@ -29,7 +29,40 @@ function crystalButton() {
       "Birthday doesn't exist, sorry. :("
   } else if (inputedMonth == "January"){
     document.getElementById("crystalInfo").innerHTML =
-      h1
+    Garnet
+  } else if (inputedMonth == "February"){
+    document.getElementById("crystalInfo").innerHTML =
+    Amethyst
+  } else if (inputedMonth == "March"){
+    document.getElementById("crystalInfo").innerHTML =
+    Aquamarine
+  } else if (inputedMonth == "April"){
+    document.getElementById("crystalInfo").innerHTML =
+    Diamond
+  } else if (inputedMonth == "May"){
+    document.getElementById("crystalInfo").innerHTML =
+    Emerald
+  } else if (inputedMonth == "June"){
+    document.getElementById("crystalInfo").innerHTML =
+    Pearl
+  } else if (inputedMonth == "July"){
+    document.getElementById("crystalInfo").innerHTML =
+    Ruby
+  } else if (inputedMonth == "August"){
+    document.getElementById("crystalInfo").innerHTML =
+    Peridot
+  } else if (inputedMonth == "September"){
+    document.getElementById("crystalInfo").innerHTML =
+    Sapphire
+  } else if (inputedMonth == "October"){
+    document.getElementById("crystalInfo").innerHTML =
+    Opal
+  } else if (inputedMonth == "November"){
+    document.getElementById("crystalInfo").innerHTML =
+    Topaze
+  } else if (inputedMonth == "December"){
+    document.getElementById("crystalInfo").innerHTML =
+    Turquoise
   }
 }
 
