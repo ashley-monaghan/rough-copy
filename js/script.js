@@ -16,25 +16,18 @@ if (navigator.serviceWorker) {
 }
 
 /**
- * This function displays an alert.
- * Math
+ * This function displays an alert for index2
+ * crystalInfo
  */
-function calculate() {
-  // input
-  const a = parseInt(document.getElementById("textbox-a").value)
-  const b = parseInt(document.getElementById("textbox-b").value)
-  const c = parseInt(document.getElementById("textbox-c").value)
+function crystalButton() {
+  let inputedMonth = document.getElementById("month").value
+  let inputedDay = document.getElementById("day").value
 
-  // process
-  const math = a + b + c
-  // output
-  document.getElementById("math").innerHTML = "Numbers: " + math + " units"
-}
-
-/**
- * This function displays an alert.
- * Words
- */
-function button() {
-  document.getElementById("words").innerHTML = "<p>Hello, World!</p>"
+  if ((inputedMonth == "February" && inputedDay == "30" || inputedDay == "31") || (inputedMonth == "April" && inputedDay == "31") || (inputedMonth == "June" && inputedDay == "31") || (inputedMonth == "September" && inputedDay == "31") || (inputedMonth == "November" && inputedDay == "31")) {
+    document.getElementById("crystalInfo").innerHTML =
+      "Birthday doesn't exist, sorry. :("
+  } else {
+    document.getElementById("crystalInfo").innerHTML =
+      "Yay this works!"
+  }
 }
