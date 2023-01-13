@@ -22,13 +22,15 @@ if (navigator.serviceWorker) {
 function crystalButton() {
   let inputedMonth = document.getElementById("month").value
   let inputedDay = document.getElementById("day").value
+  const h1 = document. createElement("h1") 
+  const textNode = document. createTextNode("Hello World"); 
 
   if ((inputedMonth == "February" && inputedDay == "30" || inputedDay == "31") || (inputedMonth == "April" && inputedDay == "31") || (inputedMonth == "June" && inputedDay == "31") || (inputedMonth == "September" && inputedDay == "31") || (inputedMonth == "November" && inputedDay == "31")) {
     document.getElementById("crystalInfo").innerHTML =
       "Birthday doesn't exist, sorry. :("
-  } else {
+  } else if (inputedMonth == "January"){
     document.getElementById("crystalInfo").innerHTML =
-      "Yay this works!"
+      textNode
   }
 }
 
