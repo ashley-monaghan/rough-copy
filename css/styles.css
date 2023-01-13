@@ -85,16 +85,10 @@ img {
 /* index2.html */
 
 a.homePage {
-  color: #2da1c1;
-  font-size: small;
+  color: #ffffff;
+  text-align: right;
+  font-size: medium;
   text-decoration: none;
-  float: right;
-}
-
-a.homePage:hover
-{
-  color: #f90;
-  text-decoration: underline;         
 }
 
 /* index3.html */
