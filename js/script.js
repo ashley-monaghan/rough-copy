@@ -31,3 +31,20 @@ function crystalButton() {
       "Yay this works!"
   }
 }
+
+/**
+ * This function displays an alert for index3
+ * zodiacInfo
+ */
+function zodiacInfo() {
+  let inputedMonth = document.getElementById("month").value
+  let inputedDay = document.getElementById("day").value
+
+  if ((inputedMonth == "February" && inputedDay == "30" || inputedDay == "31") || (inputedMonth == "April" && inputedDay == "31") || (inputedMonth == "June" && inputedDay == "31") || (inputedMonth == "September" && inputedDay == "31") || (inputedMonth == "November" && inputedDay == "31")) {
+    document.getElementById("crystalInfo").innerHTML =
+      "Birthday doesn't exist, sorry. :("
+  } else {
+    document.getElementById("crystalInfo").innerHTML =
+      "Yay this works!"
+  }
+}
