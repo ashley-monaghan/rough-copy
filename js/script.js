@@ -62,6 +62,12 @@ function crystalButton() {
   } else if (inputedMonth == "December"){
     document.getElementById("crystalInfo").innerHTML =
     "Turquoise"
+  } else if ((inputedMonth == "Month") && (inputedDay == "Day" )) {
+    document.getElementById("zodiacInfo").innerHTML =
+    "Please select your birthday in the selection boxes above..."
+  } else {
+    document.getElementById("zodiacInfo").innerHTML =
+      "Something went wrong. Please try again."
   }
 }
 
