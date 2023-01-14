@@ -91,5 +91,5 @@ a.home {
   text-align: right;
   font-size: x-large;
   text-decoration: none;
-  text-align: right;
+  float: right;
 }
