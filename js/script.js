@@ -75,10 +75,10 @@ function zodiacButton() {
   let inputedDay = document.getElementById("day").value
 
   if ((inputedMonth == "February") && (inputedDay == "30" || inputedDay == "30")) {
-    document.getElementById("answer").innerHTML =
+    document.getElementById("zodiacInfo").innerHTML =
       "This day doesnt exist..."
   } else {
-    document.getElementById("answer").innerHTML =
+    document.getElementById("zodiacInfo").innerHTML =
       "Sorry, you must pay for regular pricing. :("
   }
 }
