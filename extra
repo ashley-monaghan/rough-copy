@@ -35,7 +35,7 @@
     document.getElementById("zodiacInfo").innerHTML =
 //      "Capricorn"
 
-|| ((inputedMonth == "September") && (inputedDay == "31")) || ((inputedMonth == "November") && (inputedDay == "31"))) {
+|| ((inputedMonth == "November") && (inputedDay == "31"))) {
   document.getElementById("crystalInfo").innerHTML =
     "Birthday doesn't exist, sorry. :("
 } else {
