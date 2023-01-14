@@ -52,6 +52,14 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  color: rgb(255 255 255);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
 h4 {
   color: rgb(253 253 253);
   font-family: Helvetica, Arial, sans-serif;
@@ -87,6 +95,22 @@ img {
 /* Links */
 
 a.home {
+  color: #fff;
+  text-align: right;
+  font-size: x-large;
+  text-decoration: none;
+  float: right;
+}
+
+a.info1 {
+  color: #fff;
+  text-align: right;
+  font-size: x-large;
+  text-decoration: none;
+  float: right;
+}
+
+a.info2 {
   color: #fff;
   text-align: right;
   font-size: x-large;
