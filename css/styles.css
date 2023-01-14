@@ -105,7 +105,6 @@ a.info1 {
   float: left;
   font-size: medium;
   text-decoration: none;
-  float: right;
 }
 
 a.info2 {
@@ -113,5 +112,4 @@ a.info2 {
   float: right;
   font-size: medium;
   text-decoration: none;
-  float: right;
 }
