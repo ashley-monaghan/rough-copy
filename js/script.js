@@ -126,7 +126,7 @@ function crystalButton() {
     "Due to its strong opaque colour, the stone is often thought of as one of protection. It also has a great connection to the throat chakra and helps to enhance communication and expression. It is usually used for healing purposes as it helps align your Chakras.. Turquoise can also help to become more open to love and forgiveness. It helps to release patterns of self-sabotage."
   
   } else {
-    document.getElementById("zodiacInfo").innerHTML =
+    document.getElementById("crystalName").innerHTML =
       "Something went wrong. Please try again."
   }
 }
@@ -140,49 +140,49 @@ function zodiacButton() {
   let inputedDay = document.getElementById("day").value
 
   if (((inputedMonth == "February") && (inputedDay == "30" || inputedDay == "31")) || ((inputedMonth == "April") && (inputedDay == "31")) || ((inputedMonth == "June") && (inputedDay == "31")) || ((inputedMonth == "September") && (inputedDay == "31")) || ((inputedMonth == "November") && (inputedDay == "31"))) {
-    document.getElementById("zodiacInfo").innerHTML =
+    document.getElementById("zodiacName").innerHTML =
       "This day doesn't exist..."
   } else if (((inputedMonth == "January") && (inputedDay == "20" || inputedDay == "21" || inputedDay == "22" || inputedDay == "23" || inputedDay == "24" || inputedDay == "25" || inputedDay == "26" || inputedDay == "27" || inputedDay == "28" || inputedDay == "29" || inputedDay == "30" || inputedDay == "31")) || ((inputedMonth == "February") && (inputedDay == "1" || inputedDay == "2" || inputedDay == "3" || inputedDay == "4" || inputedDay == "5" || inputedDay == "6" || inputedDay == "7" || inputedDay == "8" || inputedDay == "9" || inputedDay == "10" || inputedDay == "11" || inputedDay == "12" || inputedDay == "13" || inputedDay == "14" || inputedDay == "15" || inputedDay == "16" || inputedDay == "17" || inputedDay == "18"))) {
-    document.getElementById("zodiacInfo").innerHTML =
+    document.getElementById("zodiacName").innerHTML =
       "Aquarius"
   } else if (((inputedMonth == "February") && (inputedDay == "19" || inputedDay == "20" || inputedDay == "21" || inputedDay == "22" || inputedDay == "23" || inputedDay == "24" || inputedDay == "25" || inputedDay == "26" || inputedDay == "27" || inputedDay == "28" || inputedDay == "29")) || ((inputedMonth == "March") && (inputedDay == "1" || inputedDay == "2" || inputedDay == "3" || inputedDay == "4" || inputedDay == "5" || inputedDay == "6" || inputedDay == "7" || inputedDay == "8" || inputedDay == "9" || inputedDay == "10" || inputedDay == "11" || inputedDay == "12" || inputedDay == "13" || inputedDay == "14" || inputedDay == "15" || inputedDay == "16" || inputedDay == "17" || inputedDay == "18" || inputedDay == "19" || inputedDay == "20"))) {
-    document.getElementById("zodiacInfo").innerHTML =
+    document.getElementById("zodiacName").innerHTML =
       "Pisces"  
   } else if (((inputedMonth == "March") && (inputedDay == "21" || inputedDay == "22" || inputedDay == "23" || inputedDay == "24" || inputedDay == "25" || inputedDay == "26" || inputedDay == "27" || inputedDay == "28" || inputedDay == "29" || inputedDay == "30" || inputedDay == "31")) || ((inputedMonth == "April") && (inputedDay == "1" || inputedDay == "2" || inputedDay == "3" || inputedDay == "4" || inputedDay == "5" || inputedDay == "6" || inputedDay == "7" || inputedDay == "8" || inputedDay == "9" || inputedDay == "10" || inputedDay == "11" || inputedDay == "12" || inputedDay == "13" || inputedDay == "14" || inputedDay == "15" || inputedDay == "16" || inputedDay == "17" || inputedDay == "18" || inputedDay == "19"))) {
-    document.getElementById("zodiacInfo").innerHTML =
+    document.getElementById("zodiacName").innerHTML =
       "Aries"  
   } else if (((inputedMonth == "April") && (inputedDay == "20" || inputedDay == "21" || inputedDay == "22" || inputedDay == "23" || inputedDay == "24" || inputedDay == "25" || inputedDay == "26" || inputedDay == "27" || inputedDay == "28" || inputedDay == "29" || inputedDay == "30")) || ((inputedMonth == "May") && (inputedDay == "1" || inputedDay == "2" || inputedDay == "3" || inputedDay == "4" || inputedDay == "5" || inputedDay == "6" || inputedDay == "7" || inputedDay == "8" || inputedDay == "9" || inputedDay == "10" || inputedDay == "11" || inputedDay == "12" || inputedDay == "13" || inputedDay == "14" || inputedDay == "15" || inputedDay == "16" || inputedDay == "17" || inputedDay == "18" || inputedDay == "19" || inputedDay == "20"))) {
-    document.getElementById("zodiacInfo").innerHTML =
+    document.getElementById("zodiacName").innerHTML =
       "Taurus"  
   } else if (((inputedMonth == "May") && (inputedDay == "21" || inputedDay == "22" || inputedDay == "23" || inputedDay == "24" || inputedDay == "25" || inputedDay == "26" || inputedDay == "27" || inputedDay == "28" || inputedDay == "29" || inputedDay == "30" || inputedDay == "31")) || ((inputedMonth == "June") && (inputedDay == "1" || inputedDay == "2" || inputedDay == "3" || inputedDay == "4" || inputedDay == "5" || inputedDay == "6" || inputedDay == "7" || inputedDay == "8" || inputedDay == "9" || inputedDay == "10" || inputedDay == "11" || inputedDay == "12" || inputedDay == "13" || inputedDay == "14" || inputedDay == "15" || inputedDay == "16" || inputedDay == "17" || inputedDay == "18" || inputedDay == "19" || inputedDay == "20"))) {
-    document.getElementById("zodiacInfo").innerHTML =
+    document.getElementById("zodiacName").innerHTML =
       "Gemini"  
   } else if (((inputedMonth == "June") && (inputedDay == "21" || inputedDay == "22" || inputedDay == "23" || inputedDay == "24" || inputedDay == "25" || inputedDay == "26" || inputedDay == "27" || inputedDay == "28" || inputedDay == "29" || inputedDay == "30")) || ((inputedMonth == "July") && (inputedDay == "1" || inputedDay == "2" || inputedDay == "3" || inputedDay == "4" || inputedDay == "5" || inputedDay == "6" || inputedDay == "7" || inputedDay == "8" || inputedDay == "9" || inputedDay == "10" || inputedDay == "11" || inputedDay == "12" || inputedDay == "13" || inputedDay == "14" || inputedDay == "15" || inputedDay == "16" || inputedDay == "17" || inputedDay == "18" || inputedDay == "19" || inputedDay == "20" || inputedDay == "21" || inputedDay == "22"))) {
-    document.getElementById("zodiacInfo").innerHTML =
+    document.getElementById("zodiacName").innerHTML =
       "Cancer"
   } else if (((inputedMonth == "July") && (inputedDay == "23" || inputedDay == "24" || inputedDay == "25" || inputedDay == "26" || inputedDay == "27" || inputedDay == "28" || inputedDay == "29" || inputedDay == "30" || inputedDay == "31")) || ((inputedMonth == "August") && (inputedDay == "1" || inputedDay == "2" || inputedDay == "3" || inputedDay == "4" || inputedDay == "5" || inputedDay == "6" || inputedDay == "7" || inputedDay == "8" || inputedDay == "9" || inputedDay == "10" || inputedDay == "11" || inputedDay == "12" || inputedDay == "13" || inputedDay == "14" || inputedDay == "15" || inputedDay == "16" || inputedDay == "17" || inputedDay == "18" || inputedDay == "19" || inputedDay == "20" || inputedDay == "21" || inputedDay == "22"))) {
-    document.getElementById("zodiacInfo").innerHTML =
+    document.getElementById("zodiacName").innerHTML =
       "Leo"
   } else if (((inputedMonth == "August") && (inputedDay == "23" || inputedDay == "24" || inputedDay == "25" || inputedDay == "26" || inputedDay == "27" || inputedDay == "28" || inputedDay == "29" || inputedDay == "30" || inputedDay == "31")) || ((inputedMonth == "September") && (inputedDay == "1" || inputedDay == "2" || inputedDay == "3" || inputedDay == "4" || inputedDay == "5" || inputedDay == "6" || inputedDay == "7" || inputedDay == "8" || inputedDay == "9" || inputedDay == "10" || inputedDay == "11" || inputedDay == "12" || inputedDay == "13" || inputedDay == "14" || inputedDay == "15" || inputedDay == "16" || inputedDay == "17" || inputedDay == "18" || inputedDay == "19" || inputedDay == "20" || inputedDay == "21" || inputedDay == "22"))) {
-    document.getElementById("zodiacInfo").innerHTML =
+    document.getElementById("zodiacName").innerHTML =
       "Virgo"  
   } else if (((inputedMonth == "September") && (inputedDay == "23" || inputedDay == "24" || inputedDay == "25" || inputedDay == "26" || inputedDay == "27" || inputedDay == "28" || inputedDay == "29" || inputedDay == "30")) || ((inputedMonth == "October") && (inputedDay == "1" || inputedDay == "2" || inputedDay == "3" || inputedDay == "4" || inputedDay == "5" || inputedDay == "6" || inputedDay == "7" || inputedDay == "8" || inputedDay == "9" || inputedDay == "10" || inputedDay == "11" || inputedDay == "12" || inputedDay == "13" || inputedDay == "14" || inputedDay == "15" || inputedDay == "16" || inputedDay == "17" || inputedDay == "18" || inputedDay == "19" || inputedDay == "20" || inputedDay == "21" || inputedDay == "22"))) {
-    document.getElementById("zodiacInfo").innerHTML =
+    document.getElementById("zodiacName").innerHTML =
       "Libra"
   } else if (((inputedMonth == "October") && (inputedDay == "23" || inputedDay == "24" || inputedDay == "25" || inputedDay == "26" || inputedDay == "27" || inputedDay == "28" || inputedDay == "29" || inputedDay == "30" || inputedDay == "31")) || ((inputedMonth == "November") && (inputedDay == "1" || inputedDay == "2" || inputedDay == "3" || inputedDay == "4" || inputedDay == "5" || inputedDay == "6" || inputedDay == "7" || inputedDay == "8" || inputedDay == "9" || inputedDay == "10" || inputedDay == "11" || inputedDay == "12" || inputedDay == "13" || inputedDay == "14" || inputedDay == "15" || inputedDay == "16" || inputedDay == "17" || inputedDay == "18" || inputedDay == "19" || inputedDay == "20" || inputedDay == "21"))) {
-    document.getElementById("zodiacInfo").innerHTML =
+    document.getElementById("zodiacName").innerHTML =
       "Scorpio"
   } else if (((inputedMonth == "November") && (inputedDay == "22" || inputedDay == "23" || inputedDay == "24" || inputedDay == "25" || inputedDay == "26" || inputedDay == "27" || inputedDay == "28" || inputedDay == "29" || inputedDay == "30")) || ((inputedMonth == "December") && (inputedDay == "1" || inputedDay == "2" || inputedDay == "3" || inputedDay == "4" || inputedDay == "5" || inputedDay == "6" || inputedDay == "7" || inputedDay == "8" || inputedDay == "9" || inputedDay == "10" || inputedDay == "11" || inputedDay == "12" || inputedDay == "13" || inputedDay == "14" || inputedDay == "15" || inputedDay == "16" || inputedDay == "17" || inputedDay == "18" || inputedDay == "19" || inputedDay == "20" || inputedDay == "21"))) {
-    document.getElementById("zodiacInfo").innerHTML =
+    document.getElementById("zodiacName").innerHTML =
       "Sagittarius"
   } else if (((inputedMonth == "December") && (inputedDay == "22" || inputedDay == "23" || inputedDay == "24" || inputedDay == "25" || inputedDay == "26" || inputedDay == "27" || inputedDay == "28" || inputedDay == "29" || inputedDay == "30" || inputedDay == "31")) || ((inputedMonth == "January") && (inputedDay == "1" || inputedDay == "2" || inputedDay == "3" || inputedDay == "4" || inputedDay == "5" || inputedDay == "6" || inputedDay == "7" || inputedDay == "8" || inputedDay == "9" || inputedDay == "10" || inputedDay == "11" || inputedDay == "12" || inputedDay == "13" || inputedDay == "14" || inputedDay == "15" || inputedDay == "16" || inputedDay == "17" || inputedDay == "18" || inputedDay == "19"))) {
-    document.getElementById("zodiacInfo").innerHTML =
+    document.getElementById("zodiacName").innerHTML =
       "Capricorn"
   } else if ((inputedMonth == "Month") || (inputedDay == "Day" )) {
-    document.getElementById("zodiacInfo").innerHTML =
+    document.getElementById("zodiacName").innerHTML =
     "Please select your birthday in the selection boxes above..."
   } else {
-    document.getElementById("zodiacInfo").innerHTML =
+    document.getElementById("zodiacName").innerHTML =
       "Something went wrong. Please try again."
   }
 }
