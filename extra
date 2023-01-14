@@ -35,8 +35,3 @@
     document.getElementById("zodiacInfo").innerHTML =
       "Capricorn"
 
-
-} else {
-  document.getElementById("zodiacInfo").innerHTML =
-    "Please select your birthday."
-}

@@ -77,7 +77,7 @@ function zodiacButton() {
   if (((inputedMonth == "February") && (inputedDay == "30" || inputedDay == "31")) || ((inputedMonth == "April") && (inputedDay == "31")) || ((inputedMonth == "June") && (inputedDay == "31")) || ((inputedMonth == "September") && (inputedDay == "31")) || ((inputedMonth == "November") && (inputedDay == "31"))) {
     document.getElementById("zodiacInfo").innerHTML =
       "This day doesnt exist..."
-  } else if ((inputedMonth == "month") && (inputedDay == "day" )) {
+  } else if ((inputedMonth == "Month") && (inputedDay == "Day" )) {
     document.getElementById("zodiacInfo").innerHTML =
     "Please select your birthday in the selection boxes above..."
   } else {
