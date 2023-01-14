@@ -121,6 +121,7 @@ function crystalButton() {
     document.getElementById("crystalName").innerHTML =
     "Turquoise!"
     document.getElementById("crystalInfo1").innerHTML =
+    "   "
     "The turquoise crystal is of the oldest stones in the world and known for its opaque blue colouring."
     document.getElementById("crystalInfo2").innerHTML =
     "Due to its strong opaque colour, the stone is often thought of as one of protection. It also has a great connection to the throat chakra and helps to enhance communication and expression. It is usually used for healing purposes as it helps align your Chakras.. Turquoise can also help to become more open to love and forgiveness. It helps to release patterns of self-sabotage."
