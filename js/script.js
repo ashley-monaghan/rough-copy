@@ -77,7 +77,7 @@ function zodiacButton() {
   if (((inputedMonth == "February") && (inputedDay == "30" || inputedDay == "31")) || ((inputedMonth == "April") && (inputedDay == "31")) || ((inputedMonth == "June") && (inputedDay == "31")) || ((inputedMonth == "September") && (inputedDay == "31")) || ((inputedMonth == "November") && (inputedDay == "31"))) {
     document.getElementById("zodiacInfo").innerHTML =
       "This day doesnt exist..."
-  } else if (((inputedMonth == "January"))) {
+  } else if (((inputedMonth == "January") && (inputedDay == "20" || inputedDay == "21" || inputedDay == "22" || inputedDay == "23" || inputedDay == "24" || inputedDay == "25" || inputedDay == "26" || inputedDay == "27" || inputedDay == "28" || inputedDay == "29"))) {
     document.getElementById("zodiacInfo").innerHTML =
       "Aquarius"
   } else if ((inputedMonth == "Month") && (inputedDay == "Day" )) {
