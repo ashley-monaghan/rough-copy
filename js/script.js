@@ -28,40 +28,40 @@ function crystalButton() {
       "Birthday doesn't exist, sorry. :("
   } else if (inputedMonth == "January"){
     document.getElementById("crystalInfo").innerHTML =
-    Garnet
+    "Garnet"
   } else if (inputedMonth == "February"){
     document.getElementById("crystalInfo").innerHTML =
     Amethyst
   } else if (inputedMonth == "March"){
     document.getElementById("crystalInfo").innerHTML =
-    Aquamarine
+    "Aquamarine"
   } else if (inputedMonth == "April"){
     document.getElementById("crystalInfo").innerHTML =
-    Diamond
+    "Diamond"
   } else if (inputedMonth == "May"){
     document.getElementById("crystalInfo").innerHTML =
-    Emerald
+    "Emerald"
   } else if (inputedMonth == "June"){
     document.getElementById("crystalInfo").innerHTML =
-    Pearl
+    "Pearl"
   } else if (inputedMonth == "July"){
     document.getElementById("crystalInfo").innerHTML =
-    Ruby
+    "Ruby"
   } else if (inputedMonth == "August"){
     document.getElementById("crystalInfo").innerHTML =
-    Peridot
+    "Peridot"
   } else if (inputedMonth == "September"){
     document.getElementById("crystalInfo").innerHTML =
-    Sapphire
+    "Sapphire"
   } else if (inputedMonth == "October"){
     document.getElementById("crystalInfo").innerHTML =
-    Opal
+    "Opal"
   } else if (inputedMonth == "November"){
     document.getElementById("crystalInfo").innerHTML =
-    Topaze
+    "Topaze"
   } else if (inputedMonth == "December"){
     document.getElementById("crystalInfo").innerHTML =
-    Turquoise
+    "Turquoise"
   }
 }
 

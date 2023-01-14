@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="pIaEtrtLPv3HG8r1JEND" name="Starting screen">
-        <mxGraphModel dx="520" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1300" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -56,7 +56,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="f8lQnOnyLd94YVpVjRPF" name="Crystal Opening Page">
-        <mxGraphModel dx="800" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1486" dy="1226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="nt6mBDqDGQ9ih6EM6o8u-0"/>
                 <mxCell id="nt6mBDqDGQ9ih6EM6o8u-1" parent="nt6mBDqDGQ9ih6EM6o8u-0"/>
@@ -116,7 +116,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="Crystal Information Page" id="PCvtQRm5MolgsJY8kbP5">
-        <mxGraphModel dx="800" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1486" dy="1226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="CbxtCQWOqLCljgE116eZ-0"/>
                 <mxCell id="CbxtCQWOqLCljgE116eZ-1" parent="CbxtCQWOqLCljgE116eZ-0"/>
@@ -319,7 +319,7 @@
                 <mxCell id="WRvKpZFXEk4IwfRepgW1-22" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#1ba1e2;sketch=1;fontSize=22;" vertex="1" parent="WRvKpZFXEk4IwfRepgW1-1">
                     <mxGeometry x="198" y="720" width="410" height="170" as="geometry"/>
                 </mxCell>
-                <mxCell id="IeKK49GKQ_I7QVv0v725-0" value="Whats Your Birthstone/Crystal?" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="WRvKpZFXEk4IwfRepgW1-1">
+                <mxCell id="IeKK49GKQ_I7QVv0v725-0" value="Whats Your Zodiac Sign?" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="WRvKpZFXEk4IwfRepgW1-1">
                     <mxGeometry x="239" y="140" width="350" height="40" as="geometry"/>
                 </mxCell>
             </root>
