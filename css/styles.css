@@ -96,24 +96,24 @@ img {
 
 a.home {
   color: #fff;
-  text-align: right;
-  font-size: x-large;
+  float: right;
+  font-size: small;
   text-decoration: none;
   float: right;
 }
 
 a.info1 {
   color: #fff;
-  text-align: right;
-  font-size: x-large;
+  float: left;
+  font-size: small;
   text-decoration: none;
   float: right;
 }
 
 a.info2 {
   color: #fff;
-  text-align: right;
-  font-size: x-large;
+  float: right;
+  font-size: small;
   text-decoration: none;
   float: right;
 }
