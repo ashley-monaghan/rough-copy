@@ -31,7 +31,7 @@ function crystalButton() {
     "Garnet"
   } else if (inputedMonth == "February"){
     document.getElementById("crystalInfo").innerHTML =
-    Amethyst
+    "Amethyst"
   } else if (inputedMonth == "March"){
     document.getElementById("crystalInfo").innerHTML =
     "Aquamarine"
