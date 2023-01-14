@@ -26,6 +26,9 @@ function crystalButton() {
   if ((inputedMonth == "February" && inputedDay == "30" || inputedDay == "31") || (inputedMonth == "April" && inputedDay == "31") || (inputedMonth == "June" && inputedDay == "31") || (inputedMonth == "September" && inputedDay == "31") || (inputedMonth == "November" && inputedDay == "31")) {
     document.getElementById("crystalInfo").innerHTML =
       "Birthday doesn't exist, sorry. :("
+  } else if ((inputedMonth == "Month") || (inputedDay == "Day" )) {
+    document.getElementById("crystalInfo").innerHTML =
+    "Please select your birthday in the selection boxes above..."
   } else if (inputedMonth == "January"){
     document.getElementById("crystalInfo").innerHTML =
     "Garnet"
@@ -62,9 +65,6 @@ function crystalButton() {
   } else if (inputedMonth == "December"){
     document.getElementById("crystalInfo").innerHTML =
     "Turquoise"
-  } else if ((inputedMonth == "Month") || (inputedDay == "Day" )) {
-    document.getElementById("crystalInfo").innerHTML =
-    "Please select your birthday in the selection boxes above..."
   } else {
     document.getElementById("zodiacInfo").innerHTML =
       "Something went wrong. Please try again."
