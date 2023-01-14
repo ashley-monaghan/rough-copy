@@ -74,7 +74,7 @@ function zodiacButton() {
   let inputedMonth = document.getElementById("month").value
   let inputedDay = document.getElementById("day").value
 
-  if (inputedMonth == "February" && inputedDay == "30" || inputedDay == "30") {
+  if ((inputedMonth == "February") && (inputedDay == "30" || inputedDay == "30")) {
     document.getElementById("answer").innerHTML =
       "This day doesnt exist..."
   } else {
