@@ -96,16 +96,14 @@ img {
 
 a.home {
   color: #fff;
-  float: right;
-  font-size: small;
+  font-size: medium;
   text-decoration: none;
-  float: right;
 }
 
 a.info1 {
   color: #fff;
   float: left;
-  font-size: small;
+  font-size: medium;
   text-decoration: none;
   float: right;
 }
@@ -113,7 +111,7 @@ a.info1 {
 a.info2 {
   color: #fff;
   float: right;
-  font-size: small;
+  font-size: medium;
   text-decoration: none;
   float: right;
 }
