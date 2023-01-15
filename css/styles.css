@@ -103,13 +103,13 @@ a.home {
 a.info1 {
   color: #fff;
   float: left;
-  font-size: medium;
+  font-size: small;
   text-decoration: none;
 }
 
 a.info2 {
   color: #fff;
   float: right;
-  font-size: medium;
+  font-size: small;
   text-decoration: none;
 }
