@@ -1,7 +1,7 @@
-// Copyright (c) 2022 Ashley Monaghan All rights reserved
+// Copyright (c) 2023 Ashley Monaghan All rights reserved
 //
 // Created by: Ashley Monaghan
-// Created on: Oct 2022
+// Created on: Jan 2023
 // This file contains the JS functions for index.html
 
 "use strict"
