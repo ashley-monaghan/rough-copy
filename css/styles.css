@@ -109,14 +109,14 @@ a.info1 {
 
 a.info2 {
   color: #fff;
-  float: left;
+  float: right;
   font-size: small;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a.filler {
   color: #fff;
-  float: right;
+  float: left;
   font-size: small;
-  text-decoration: underline;
+  text-decoration: none;
 }
