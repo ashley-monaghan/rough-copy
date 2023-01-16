@@ -97,19 +97,19 @@ img {
 a.home {
   color: #fff;
   font-size: medium;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a.info1 {
   color: #fff;
   float: left;
   font-size: small;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a.info2 {
   color: #fff;
   float: right;
   font-size: small;
-  text-decoration: none;
+  text-decoration: underline;
 }
