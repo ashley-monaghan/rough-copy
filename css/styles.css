@@ -108,7 +108,8 @@ a.info1 {
 }
 
 a.info2 {
-  float: right;
+  color: #fff;
+  float: left;
   font-size: small;
   text-decoration: none;
 }
