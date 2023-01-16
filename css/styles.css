@@ -77,7 +77,7 @@ p {
 }
 
 h5 {
-  color: rgb(243, 221, 196);
+  color: rgb(253 253 253);
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
@@ -95,20 +95,20 @@ img {
 /* Links */
 
 a.home {
-  color: rgb(243, 221, 196);
+  color: #fff;
   font-size: medium;
   text-decoration: underline;
 }
 
 a.info1 {
-  color: rgb(243, 221, 196);
+  color: #fff;
   float: left;
   font-size: small;
   text-decoration: underline;
 }
 
 a.info2 {
-  color: rgb(243, 221, 196);
+  color: #fff;
   float: right;
   font-size: small;
   text-decoration: underline;
