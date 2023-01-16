@@ -108,6 +108,12 @@ a.info1 {
 }
 
 a.info2 {
+  float: right;
+  font-size: small;
+  text-decoration: none;
+}
+
+a.info3 {
   color: #fff;
   float: right;
   font-size: small;
