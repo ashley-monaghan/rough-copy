@@ -1,6 +1,6 @@
 /* Created by: Ashley Monaghan
-* Created on: Oct 2022
-* This file contains the CSS for index.html
+* Created on: Jan 2023
+* This file contains the CSS for index.html, index.html2, index3.html, index4.html and index5.html 
 */
 
 /* mdl stuff */
@@ -77,7 +77,7 @@ p {
 }
 
 h5 {
-  color: rgb(253 253 253);
+  color: rgb(243, 221, 196);
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
@@ -95,20 +95,20 @@ img {
 /* Links */
 
 a.home {
-  color: #fff;
+  color: rgb(243, 221, 196);
   font-size: medium;
   text-decoration: underline;
 }
 
 a.info1 {
-  color: #fff;
+  color: rgb(243, 221, 196);
   float: left;
   font-size: small;
   text-decoration: underline;
 }
 
 a.info2 {
-  color: #fff;
+  color: rgb(243, 221, 196);
   float: right;
   font-size: small;
   text-decoration: underline;
