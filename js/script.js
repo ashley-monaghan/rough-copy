@@ -157,27 +157,33 @@ function zodiacButton() {
   
   } else if (((inputedMonth == "January") && (inputedDay == "20" || inputedDay == "21" || inputedDay == "22" || inputedDay == "23" || inputedDay == "24" || inputedDay == "25" || inputedDay == "26" || inputedDay == "27" || inputedDay == "28" || inputedDay == "29" || inputedDay == "30" || inputedDay == "31")) || ((inputedMonth == "February") && (inputedDay == "1" || inputedDay == "2" || inputedDay == "3" || inputedDay == "4" || inputedDay == "5" || inputedDay == "6" || inputedDay == "7" || inputedDay == "8" || inputedDay == "9" || inputedDay == "10" || inputedDay == "11" || inputedDay == "12" || inputedDay == "13" || inputedDay == "14" || inputedDay == "15" || inputedDay == "16" || inputedDay == "17" || inputedDay == "18"))) {
     document.getElementById("zodiacName").innerHTML =
-      "Aquarius"
+      "Aquarius!"
     document.getElementById("zodiacInfo1").innerHTML =
-      "Info1"
+      "Even with the 'aqua' in its name, Aquarius is actually the last air sign of the zodiac. Aquarians are typical outcasts. This doesn’t mean they’re loners. In fact, they love being in large groups, showing off their differences. Intelligence, to them, means the ability to formulate the most unpopular opinion possible. They love to live their lives in opposition to the current world. An entire universe exists in their heads, and this universe sticks to its own set of logic that doesn’t map onto reality. Aquarians wonder why they aren't normal, but find normalcy boring. Aquarians, seek to avoid categorization. Aquarians are always experimenting, using the element of surprise to have reactions and make theories about the difficulties of human nature."
     document.getElementById("zodiacInfo2").innerHTML =
-      "info2"
+      "Symbol: Water bear"
+      "Element: Air"
+      "Ruling Planet: Uranus"
   
   } else if (((inputedMonth == "February") && (inputedDay == "19" || inputedDay == "20" || inputedDay == "21" || inputedDay == "22" || inputedDay == "23" || inputedDay == "24" || inputedDay == "25" || inputedDay == "26" || inputedDay == "27" || inputedDay == "28" || inputedDay == "29")) || ((inputedMonth == "March") && (inputedDay == "1" || inputedDay == "2" || inputedDay == "3" || inputedDay == "4" || inputedDay == "5" || inputedDay == "6" || inputedDay == "7" || inputedDay == "8" || inputedDay == "9" || inputedDay == "10" || inputedDay == "11" || inputedDay == "12" || inputedDay == "13" || inputedDay == "14" || inputedDay == "15" || inputedDay == "16" || inputedDay == "17" || inputedDay == "18" || inputedDay == "19" || inputedDay == "20"))) {
     document.getElementById("zodiacName").innerHTML =
       "Pisces"  
     document.getElementById("zodiacInfo1").innerHTML =
-      "Info1"
+      "Pisces' behaviour changes based on who they’re around. They are unlimited, weakening themselves with larger personalities to avoid having to form readable identities. Most of the traits usually associated with Pisces (dreaminess, emotionality, imagination) are internal processes that are difficult to observe from the outside. Therefore hard to read. Pisces are mostly inward-facing. They are not self-absorbed, but they are absorbed in themselves."
     document.getElementById("zodiacInfo2").innerHTML =
-      "info2"
+      "Symbol: The fishes"
+      "Element: Water"
+      "Ruling Planet: Neptune"
   
   } else if (((inputedMonth == "March") && (inputedDay == "21" || inputedDay == "22" || inputedDay == "23" || inputedDay == "24" || inputedDay == "25" || inputedDay == "26" || inputedDay == "27" || inputedDay == "28" || inputedDay == "29" || inputedDay == "30" || inputedDay == "31")) || ((inputedMonth == "April") && (inputedDay == "1" || inputedDay == "2" || inputedDay == "3" || inputedDay == "4" || inputedDay == "5" || inputedDay == "6" || inputedDay == "7" || inputedDay == "8" || inputedDay == "9" || inputedDay == "10" || inputedDay == "11" || inputedDay == "12" || inputedDay == "13" || inputedDay == "14" || inputedDay == "15" || inputedDay == "16" || inputedDay == "17" || inputedDay == "18" || inputedDay == "19"))) {
     document.getElementById("zodiacName").innerHTML =
       "Aries"  
     document.getElementById("zodiacInfo1").innerHTML =
-      "Info1"
+      "Aries do things their own way. They are highly competitive and honest. They throw themselves at the world eagerly and without fear. Aries are driven by a desire to prove themselves and their strength. They have high energy and are very ambitious. They naturally take charge because they are good at initiating new projects. They can also be impatient, but are naturally active and don’t like to waste time. While they want competition, they don’t like to play games. They are highly self-aware, have strong opinions and are always ready to defend themselves."
     document.getElementById("zodiacInfo2").innerHTML =
-      "info2"
+      "Symbol: The Ram"
+      "Element: Fire"
+      "Ruling Planet: Mars"
   
   } else if (((inputedMonth == "April") && (inputedDay == "20" || inputedDay == "21" || inputedDay == "22" || inputedDay == "23" || inputedDay == "24" || inputedDay == "25" || inputedDay == "26" || inputedDay == "27" || inputedDay == "28" || inputedDay == "29" || inputedDay == "30")) || ((inputedMonth == "May") && (inputedDay == "1" || inputedDay == "2" || inputedDay == "3" || inputedDay == "4" || inputedDay == "5" || inputedDay == "6" || inputedDay == "7" || inputedDay == "8" || inputedDay == "9" || inputedDay == "10" || inputedDay == "11" || inputedDay == "12" || inputedDay == "13" || inputedDay == "14" || inputedDay == "15" || inputedDay == "16" || inputedDay == "17" || inputedDay == "18" || inputedDay == "19" || inputedDay == "20"))) {
     document.getElementById("zodiacName").innerHTML =
