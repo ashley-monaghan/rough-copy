@@ -88,7 +88,12 @@ h5 {
   color: rgb(253 253 253);
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 1.5rem;
+  text-align: center;
+}
+
+#infotext {
+  color: rgb(253 253 253);
+  font-family: Helvetica, Arial, sans-serif;
   text-align: center;
 }
 
