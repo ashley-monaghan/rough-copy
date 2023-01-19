@@ -23,7 +23,7 @@
   opacity: 0.01;
 }
 
-mdl-textfield {
+.mdl-textfield {
   color: #fff;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
@@ -90,7 +90,6 @@ h5 {
   font-weight: bold;
   font-size: 1.5rem;
   text-align: center;
-
 }
 
 /* Images */
