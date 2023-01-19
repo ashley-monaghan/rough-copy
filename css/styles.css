@@ -91,6 +91,13 @@ h5 {
   text-align: center;
 }
 
+#titledate {
+  color: rgb(253 253 253);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
 #infotext {
   color: rgb(253 253 253);
   font-family: Helvetica, Arial, sans-serif;
