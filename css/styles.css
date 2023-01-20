@@ -140,3 +140,10 @@ a.filler {
   font-size: small;
   text-decoration: none;
 }
+
+a.elementpage {
+  color: #fff;
+  float: right;
+  font-size: small;
+  text-decoration: underline;
+}
