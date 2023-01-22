@@ -55,7 +55,7 @@ function crystalButton() {
       "Amethyst are purple coloured stones that are also scratch-resistant."
     document.getElementById("crystalInfo2").innerHTML =
       "Amethyst are very well-known for being protection crystals that also help with grounding, tranquillity and can help to calm the user. They can help to relieve stress and anxiety, and things like headaches and fatigue. Amethysts can even improve cell regeneration to help your bones and joints, and improve your skin."
-    document.getElementById("image").innerHTML = '<img src="./birthstones/amythest.jpg" alt="Amethyst" />'
+    document.getElementById("image").innerHTML = '<img src="./images/amythest.jpg" alt="Amethyst" />'
 
   } else if (inputedMonth == "March"){
     document.getElementById("crystalName").innerHTML =
