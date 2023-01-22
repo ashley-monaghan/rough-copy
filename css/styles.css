@@ -112,6 +112,13 @@ img {
   margin-left: auto;
 }
 
+#image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: fit-content;
+}
+
 /* Links */
 
 a.home {
