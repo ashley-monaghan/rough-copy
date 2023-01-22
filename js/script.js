@@ -46,7 +46,7 @@ function crystalButton() {
       "Garnet is most commonly found in red, it also comes in other colours such as orange, pink, green, black and honey brown. Garnet is also the generic name for different minerals, each is named after its colour."
     document.getElementById("crystalInfo2").innerHTML =
       "The garnet is usually thought of as an energising stone, which helps balance, strengthen and protect the user. It's also used to attract and activate passion and success. Garnet can help get rid of emotional and energetic blocks, and to create energetic and emotional balance in the body."
-    document.getElementById("image").innerHTML = '<img src="./images/birthstones/garnet.jpg" alt="Garnet" />'
+    document.getElementById("image").innerHTML = '<img src="./images/birthstones/garnet.jpg" alt="Garnet" width="40%" height="40%" />'
 
   } else if (inputedMonth == "February"){
     document.getElementById("crystalName").innerHTML =
