@@ -73,7 +73,7 @@ function crystalButton() {
       "The diamond is one the most precious substances on earth being greatly valued for its rarity."
     document.getElementById("crystalInfo2").innerHTML =
       "Diamonds have many healing powers as they strengthen and help re-energize all the energy centres of the wearer. They help to bring together the mind and the body, helping them work together to cleanse and restore your mind, body and soul. It's also associated with invincibility."
-    document.getElementById("image").innerHTML = '<img src="./images/birthstones/diamond.jpg" alt="Diamond" />'
+    document.getElementById("image").innerHTML = '<img src="./images/birthstones/diamond.jpg" alt="Diamond" width="50%" height="50%" />'
 
   } else if (inputedMonth == "May"){
     document.getElementById("crystalName").innerHTML =
