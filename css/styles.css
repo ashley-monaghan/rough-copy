@@ -116,7 +116,8 @@ img {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: fit-content;
+  width: 20%;
+  height: 20%;
 }
 
 /* Links */
