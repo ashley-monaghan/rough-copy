@@ -30,6 +30,8 @@ function crystalButton() {
       ""
     document.getElementById("crystalInfo2").innerHTML =
       ""
+    document.getElementById("image").innerHTML =
+      ""
     } else if ((inputedMonth == "Month") || (inputedDay == "Day" )) {
     document.getElementById("crystalName").innerHTML =
       "Please select your birthday in the selection boxes above..."
@@ -148,6 +150,12 @@ function crystalButton() {
   } else {
     document.getElementById("crystalName").innerHTML =
       "Something went wrong. Please try again."
+    document.getElementById("crystalInfo1").innerHTML =
+      ""
+    document.getElementById("crystalInfo2").innerHTML =
+      ""
+    document.getElementById("image").innerHTML =
+      ""
   }
 }
 
