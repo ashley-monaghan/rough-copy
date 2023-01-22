@@ -91,7 +91,7 @@ function crystalButton() {
       "The pearl is the only birthstone to be taken from living creatures, marine oysters and freshwater mussels."
     document.getElementById("crystalInfo2").innerHTML =
       "Pearls are the ultimate symbol of wisdom, having the phrase “a pearl of wisdom”. They are also seen as a symbol of integrity, loyalty and are known to strengthen relationships. Pearls are used to tap into inner wisdom and nurture love. They help enhance personal integrity, bring truth forward, grow sincerity, inhibit immodest behaviour and advance in wisdom."
-    document.getElementById("image").innerHTML = '<img src="./images/birthstones/pearls.jpg" alt="Pearl" />'
+    document.getElementById("image").innerHTML = '<img src="./images/birthstones/pearls.jpg" alt="Pearl" width="20%" height="20%" />'
 
   } else if (inputedMonth == "July"){
     document.getElementById("crystalName").innerHTML =
