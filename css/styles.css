@@ -153,3 +153,11 @@ a.elementpage {
   font-size: small;
   text-decoration: underline;
 }
+
+#elementpage {
+  color: rgb(253 253 253);
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
