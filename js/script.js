@@ -46,7 +46,7 @@ function crystalButton() {
       "Garnet is most commonly found in red, it also comes in other colours such as orange, pink, green, black and honey brown. Garnet is also the generic name for different minerals, each is named after its colour."
     document.getElementById("crystalInfo2").innerHTML =
       "The garnet is usually thought of as an energising stone, which helps balance, strengthen and protect the user. It's also used to attract and activate passion and success. Garnet can help get rid of emotional and energetic blocks, and to create energetic and emotional balance in the body."
-    document.getElementById("image").innerHTML = '<img src="./images/garnet.jpg" alt="Garnet" />'
+    document.getElementById("image").innerHTML = '<img src="./images/birthstones/garnet.jpg" alt="Garnet" />'
 
   } else if (inputedMonth == "February"){
     document.getElementById("crystalName").innerHTML =
@@ -64,7 +64,7 @@ function crystalButton() {
       "Aquamarine is a pale blue colour."
     document.getElementById("crystalInfo2").innerHTML =
       "This stone helps with relaxing and cleansing the user, inspiring truth and can help to let go of unwanted or unneeded negative energy. Aquamarine can help to process information, and go through energy, create mental clarity, and soothe an overactive mind. It's even used to improve the intellect!"
-    document.getElementById("image").innerHTML = '<img src="./images/aquamarine.png" alt="Aquariume" />'
+    document.getElementById("image").innerHTML = '<img src="./images/birthstones/aquamarine.png" alt="Aquariume" />'
 
   } else if (inputedMonth == "April"){
     document.getElementById("crystalName").innerHTML =
@@ -73,7 +73,7 @@ function crystalButton() {
       "The diamond is one the most precious substances on earth being greatly valued for its rarity."
     document.getElementById("crystalInfo2").innerHTML =
       "Diamonds have many healing powers as they strengthen and help re-energize all the energy centres of the wearer. They help to bring together the mind and the body, helping them work together to cleanse and restore your mind, body and soul. It's also associated with invincibility."
-    document.getElementById("image").innerHTML = '<img src="./images/diamond.jpg" alt="Diamond" />'
+    document.getElementById("image").innerHTML = '<img src="./images/birthstones/diamond.jpg" alt="Diamond" />'
 
   } else if (inputedMonth == "May"){
     document.getElementById("crystalName").innerHTML =
@@ -82,7 +82,7 @@ function crystalButton() {
       "Emerald is a dark green stone, as well as known for being one of the “big four” gems, with rubies, diamonds and sapphires."
     document.getElementById("crystalInfo2").innerHTML =
       "Emeralds are associated with truth and love but have also been known to represent intuition as well. It helps open the heart chakra and calms the emotions. It provides inspiration, balance, wisdom, and patience. It can help improve friendship, peace, harmony, and domestic bliss giving wearer to both give and receive unconditional love."
-    document.getElementById("image").innerHTML = '<img src="./images/emerald.png" alt="Emerald" />'
+    document.getElementById("image").innerHTML = '<img src="./images/birthstones/emerald.png" alt="Emerald" />'
 
   } else if (inputedMonth == "June"){
     document.getElementById("crystalName").innerHTML =
@@ -91,7 +91,7 @@ function crystalButton() {
       "The pearl is the only birthstone to be taken from living creatures, marine oysters and freshwater mussels."
     document.getElementById("crystalInfo2").innerHTML =
       "Pearls are the ultimate symbol of wisdom, having the phrase “a pearl of wisdom”. They are also seen as a symbol of integrity, loyalty and are known to strengthen relationships. Pearls are used to tap into inner wisdom and nurture love. They help enhance personal integrity, bring truth forward, grow sincerity, inhibit immodest behaviour and advance in wisdom."
-    document.getElementById("image").innerHTML = '<img src="./images/pearls.jpg" alt="Pearl" />'
+    document.getElementById("image").innerHTML = '<img src="./images/birthstones/pearls.jpg" alt="Pearl" />'
 
   } else if (inputedMonth == "July"){
     document.getElementById("crystalName").innerHTML =
@@ -100,7 +100,7 @@ function crystalButton() {
       "Rubys are one of the priciest stones out of the birthstones, the ruby is known for its signature red colour and durability."
     document.getElementById("crystalInfo2").innerHTML =
       "This stone represents nobility, purity and passion. It's associated with improving energy and concentration, creativity, loyalty, honour and compassion. Ruby is said to stimulate heart chakra and bring spiritual wisdom while shielding against psychic attacks."
-    document.getElementById("image").innerHTML = '<img src="./images/ruby.jpg" alt="Ruby" />'
+    document.getElementById("image").innerHTML = '<img src="./images/birthstones/ruby.jpg" alt="Ruby" />'
 
   } else if (inputedMonth == "August"){
     document.getElementById("crystalName").innerHTML =
@@ -109,7 +109,7 @@ function crystalButton() {
       "Peridot is known for its green colour, which comes in a variety of shades. Throughout history, they have been used in jewellery."
     document.getElementById("crystalInfo2").innerHTML =
       "The stone is associated with strength and balance, and is believed to bring peace and rest to those who wear it. Peridots help with respiratory ailments, insomnia, and bleeding. It's associated with helping memory and ease labour and delivery. For years, peridot beads and talismans were used for protection, as well as to promote love, happiness, and wealth."
-    document.getElementById("image").innerHTML = '<img src="./images/peridot.png" alt="Peridot" />'
+    document.getElementById("image").innerHTML = '<img src="./images/birthstones/peridot.png" alt="Peridot" />'
 
   } else if (inputedMonth == "September"){
     document.getElementById("crystalName").innerHTML =
@@ -118,7 +118,7 @@ function crystalButton() {
       "The sapphire comes in a variety of colours, but is best known for being blue."
     document.getElementById("crystalInfo2").innerHTML =
       "The sapphire is a guardian of innocence, a bestower of truth and a promoter of good health. It helps with focusing and calming the mind, helps remove unwanted thoughts, depression and mental tension. It is claimed to be useful in encouraging faithfulness and loyalty. Sapphire is thought to bring peace of mind, serenity and prosperity."
-    document.getElementById("image").innerHTML = '<img src="./images/saphire.jpg" alt="Saphire" />'
+    document.getElementById("image").innerHTML = '<img src="./images/birthstones/saphire.jpg" alt="Saphire" />'
 
   } else if (inputedMonth == "October"){
     document.getElementById("crystalName").innerHTML =
@@ -127,7 +127,7 @@ function crystalButton() {
       "The opal is unique because of its pearlescent patterns that are almost metallic in colour."
     document.getElementById("crystalInfo2").innerHTML =
       "The opal represents a symbol of hope, purity, and truth. They’re also useful in helping to treat fevers and help the immune system. Opal can be used for balance, amplifying positive energy, helping with clarity and working through challenges."
-    document.getElementById("image").innerHTML = '<img src="./images/opal.jpg" alt="Opal" />'
+    document.getElementById("image").innerHTML = '<img src="./images/birthstones/opal.jpg" alt="Opal" />'
 
   } else if (inputedMonth == "November"){
     document.getElementById("crystalName").innerHTML =
@@ -136,7 +136,7 @@ function crystalButton() {
       "This type of quartz is known for its earthy tones from a deep red to an orangey-brown colour."
     document.getElementById("crystalInfo2").innerHTML =
       "It is often referred to as the stone of abundance and is said to attract wealth and prosperity. It helps to soothe, heal, re-motivate, and bring strength. Loyalty, beauty, protection, healing, weight loss, joy, generosity, abundance, wisdom, enlightenment, knowledge, good health, virtues of leadership, and love are also known to be linked to Topaz. It's known as the 'lover of gold,' as it helps to bring wealth and money."
-    document.getElementById("image").innerHTML = '<img src="./images/topaz.png" alt="Topaze" />'
+    document.getElementById("image").innerHTML = '<img src="./images/birthstones/topaz.png" alt="Topaze" />'
 
   } else if (inputedMonth == "December"){
     document.getElementById("crystalName").innerHTML =
@@ -145,7 +145,7 @@ function crystalButton() {
       "The turquoise crystal is of the oldest stones in the world and known for its opaque blue colouring."
     document.getElementById("crystalInfo2").innerHTML =
       "Due to its strong opaque colour, the stone is often thought of as one of protection. It also has a great connection to the throat chakra and helps to enhance communication and expression. It is usually used for healing purposes as it helps align your Chakras.. Turquoise can also help to become more open to love and forgiveness. It helps to release patterns of self-sabotage."
-    document.getElementById("image").innerHTML = '<img src="./images/turquoise.jpg" alt="Turquoise" />'
+    document.getElementById("image").innerHTML = '<img src="./images/birthstones/turquoise.jpg" alt="Turquoise" />'
 
   } else {
     document.getElementById("crystalName").innerHTML =
