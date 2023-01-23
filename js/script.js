@@ -118,7 +118,7 @@ function crystalButton() {
       "The sapphire comes in a variety of colours, but is best known for being blue."
     document.getElementById("crystalInfo2").innerHTML =
       "The sapphire is a guardian of innocence, a bestower of truth and a promoter of good health. It helps with focusing and calming the mind, helps remove unwanted thoughts, depression and mental tension. It is claimed to be useful in encouraging faithfulness and loyalty. Sapphire is thought to bring peace of mind, serenity and prosperity."
-    document.getElementById("image").innerHTML = '<img src="./images/birthstones/saphire.jpg" alt="Saphire" width="30%" height="30%" />'
+    document.getElementById("image").innerHTML = '<img src="./images/birthstones/saphire.jpg" alt="Sapphire" width="20%" height="20%" />'
 
   } else if (inputedMonth == "October"){
     document.getElementById("crystalName").innerHTML =
@@ -127,7 +127,7 @@ function crystalButton() {
       "The opal is unique because of its pearlescent patterns that are almost metallic in colour."
     document.getElementById("crystalInfo2").innerHTML =
       "The opal represents a symbol of hope, purity, and truth. They’re also useful in helping to treat fevers and help the immune system. Opal can be used for balance, amplifying positive energy, helping with clarity and working through challenges."
-    document.getElementById("image").innerHTML = '<img src="./images/birthstones/opal.jpg" alt="Opal" />'
+    document.getElementById("image").innerHTML = '<img src="./images/birthstones/opal.jpg" alt="Opal" width="60%" height="60%" />'
 
   } else if (inputedMonth == "November"){
     document.getElementById("crystalName").innerHTML =
