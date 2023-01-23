@@ -136,7 +136,7 @@ function crystalButton() {
       "This type of quartz is known for its earthy tones from a deep red to an orangey-brown colour."
     document.getElementById("crystalInfo2").innerHTML =
       "It is often referred to as the stone of abundance and is said to attract wealth and prosperity. It helps to soothe, heal, re-motivate, and bring strength. Loyalty, beauty, protection, healing, weight loss, joy, generosity, abundance, wisdom, enlightenment, knowledge, good health, virtues of leadership, and love are also known to be linked to Topaz. It's known as the 'lover of gold,' as it helps to bring wealth and money."
-    document.getElementById("image").innerHTML = '<img src="./images/birthstones/topaz.png" alt="Topaze" />'
+    document.getElementById("image").innerHTML = '<img src="./images/birthstones/topaz.png" alt="Topaze" width="50%" height="50%" />'
 
   } else if (inputedMonth == "December"){
     document.getElementById("crystalName").innerHTML =
