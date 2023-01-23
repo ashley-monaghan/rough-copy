@@ -362,6 +362,14 @@ function zodiacButton() {
   } else {
     document.getElementById("zodiacName").innerHTML =
       "Something went wrong. Please try again."
+    document.getElementById("zodiacInfo1").innerHTML =
+      ""
+    document.getElementById("zodiacInfo2").innerHTML =
+      ""
+    document.getElementById("zodiacInfo3").innerHTML =
+      ""
+    document.getElementById("zodiacInfo4").innerHTML =
+      ""
   }
 }
 
@@ -384,19 +392,19 @@ function elementsbutton() {
     document.getElementById("elementInfo1").innerHTML =
       "Cancer, Scorpio, and Pisces represent the element of Water. They are the most emotional signs within the zodiac and symbolize the fluidity of their element. They are encouraging and thoughtful which allows them to take on the happiness and sorrow of those that they connect with. Cancer forges a close connection to its origins at home. It values the act of care and cherishes its given and chosen families. Scorpio is skilled in the way it understands complicated thoughts and feelings. Its emotions drive all of its actions forward, making Scorpio determined. Finally, Pisces is extra sensitive. They tend to adopt a dreamer attitude but are compassionate. Water signs come together to form the most open-minded signs within the zodiac. It is possible that they might be overlooked due to their changing forms, but they are always aware of how others are feeling."
     
-  } else if ((inputedZodiac == "Cancer") || (inputedZodiac == "Scorpio") || (inputedZodiac == "Pisces")) {
+  } else if ((inputedZodiac == "Taurus") || (inputedZodiac == "Virgo") || (inputedZodiac == "Capricorn")) {
     document.getElementById("elementName").innerHTML =
       "Earth!"
     document.getElementById("elementInfo1").innerHTML =
       "Taurus, Virgo, and Capricorn, come together to represent the useful and reliable qualities of the Earth element. As the most grounded element, Earth signs respond well to the things that they can clearly touch and see. This is what makes them sensual beings who are prone to deep connections. You can always count on an Earth sign to be there, as they often believe they have a responsibility to support those within their sphere. They value logic and embody dependability. Taurus is the most pragmatic Earth sign, it finds comfort in planning and conceptualizing each step of its journey. Virgo is similarly practical and hardworking. It celebrates perpetual dedication but sometimes falls victim to overburdening. Finally, Capricorn often takes the position of an overseer. It is cautious and realistic. Earth signs tend to work with what they have, they stray away from bombastic ideals and pursue linear trains of thought and action."  
 
-    } else if ((inputedZodiac == "Cancer") || (inputedZodiac == "Scorpio") || (inputedZodiac == "Pisces")) {
+    } else if ((inputedZodiac == "Leo") || (inputedZodiac == "Sagittarius") || (inputedZodiac == "Aries")) {
       document.getElementById("elementName").innerHTML =
         "Fire!"
       document.getElementById("elementInfo1").innerHTML =
         "Aries, Leo, and Sagittarius represent the passionate Fire element. As expected, Fire signs are recognized for their spontaneity, creativity, and courage. They are often difficult to silence or contain and typically say big ideas with no fear. Sagittarius is known as the easily silenced Fire sign, so they are more adaptable than the other zodiacs but still is determined. Leo, on the other hand, is the fixed Fire sign and enthusiastically represents passion and loyalty. Lastly, Aries is the most creative Fire sign. They spend no time remaining in the past and strives on into the future with a sense of certainty and confidence. Altogether, Fire signs are not afraid to say what they think and generate their own creative path."  
 
-    } else if ((inputedZodiac == "Cancer") || (inputedZodiac == "Scorpio") || (inputedZodiac == "Pisces")) {
+    } else if ((inputedZodiac == "Libra") || (inputedZodiac == "Gemini") || (inputedZodiac == "Aquarius")) {
       document.getElementById("elementName").innerHTML =
         "Air!"
       document.getElementById("elementInfo1").innerHTML =
@@ -405,5 +413,7 @@ function elementsbutton() {
     } else {
       document.getElementById("elementName").innerHTML =
       "Something went wrong. Please try again."
+      document.getElementById("elementInfo1").innerHTML =
+      ""
   }
 }
