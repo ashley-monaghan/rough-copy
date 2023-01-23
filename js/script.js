@@ -369,8 +369,8 @@ function zodiacButton() {
  * This function displays an alert for index3
  * elementsinfo
  */
-function zodiacButton() {
-  let inputedZodiac = document.getElementById("month").value
+function elementsbutton() {
+  let inputedZodiac = document.getElementById("zodiac").value
 
   if (inputedZodiac == "Zodiac") {
     document.getElementById("elementName").innerHTML =
