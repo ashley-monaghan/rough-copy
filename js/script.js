@@ -100,7 +100,7 @@ function crystalButton() {
       "Rubys are one of the priciest stones out of the birthstones, the ruby is known for its signature red colour and durability."
     document.getElementById("crystalInfo2").innerHTML =
       "This stone represents nobility, purity and passion. It's associated with improving energy and concentration, creativity, loyalty, honour and compassion. Ruby is said to stimulate heart chakra and bring spiritual wisdom while shielding against psychic attacks."
-    document.getElementById("image").innerHTML = '<img src="./images/birthstones/ruby.jpg" alt="Ruby" />'
+    document.getElementById("image").innerHTML = '<img src="./images/birthstones/ruby.jpg" alt="Ruby" width="50%" height="50%" />'
 
   } else if (inputedMonth == "August"){
     document.getElementById("crystalName").innerHTML =
