@@ -415,24 +415,28 @@ function elementsbutton() {
       "Water!"
     document.getElementById("elementInfo1").innerHTML =
       "Cancer, Scorpio, and Pisces represent the element of Water. They are the most emotional signs within the zodiac and symbolize the fluidity of their element. They are encouraging and thoughtful which allows them to take on the happiness and sorrow of those that they connect with. Cancer forges a close connection to its origins at home. It values the act of care and cherishes its given and chosen families. Scorpio is skilled in the way it understands complicated thoughts and feelings. Its emotions drive all of its actions forward, making Scorpio determined. Finally, Pisces is extra sensitive. They tend to adopt a dreamer attitude but are compassionate. Water signs come together to form the most open-minded signs within the zodiac. It is possible that they might be overlooked due to their changing forms, but they are always aware of how others are feeling."
-    
+    document.getElementById("image").innerHTML = '<img src="./images/elements/water.jpg" alt="water" width="25%" height="23%" />'
+
   } else if ((inputedZodiac == "Taurus") || (inputedZodiac == "Virgo") || (inputedZodiac == "Capricorn")) {
     document.getElementById("elementName").innerHTML =
       "Earth!"
     document.getElementById("elementInfo1").innerHTML =
       "Taurus, Virgo, and Capricorn, come together to represent the useful and reliable qualities of the Earth element. As the most grounded element, Earth signs respond well to the things that they can clearly touch and see. This is what makes them sensual beings who are prone to deep connections. You can always count on an Earth sign to be there, as they often believe they have a responsibility to support those within their sphere. They value logic and embody dependability. Taurus is the most pragmatic Earth sign, it finds comfort in planning and conceptualizing each step of its journey. Virgo is similarly practical and hardworking. It celebrates perpetual dedication but sometimes falls victim to overburdening. Finally, Capricorn often takes the position of an overseer. It is cautious and realistic. Earth signs tend to work with what they have, they stray away from bombastic ideals and pursue linear trains of thought and action."  
+    document.getElementById("image").innerHTML = '<img src="./images/elements/earth.jpg" alt="earth" width="25%" height="23%" />'
 
     } else if ((inputedZodiac == "Leo") || (inputedZodiac == "Sagittarius") || (inputedZodiac == "Aries")) {
       document.getElementById("elementName").innerHTML =
         "Fire!"
       document.getElementById("elementInfo1").innerHTML =
         "Aries, Leo, and Sagittarius represent the passionate Fire element. As expected, Fire signs are recognized for their spontaneity, creativity, and courage. They are often difficult to silence or contain and typically say big ideas with no fear. Sagittarius is known as the easily silenced Fire sign, so they are more adaptable than the other zodiacs but still is determined. Leo, on the other hand, is the fixed Fire sign and enthusiastically represents passion and loyalty. Lastly, Aries is the most creative Fire sign. They spend no time remaining in the past and strives on into the future with a sense of certainty and confidence. Altogether, Fire signs are not afraid to say what they think and generate their own creative path."  
+      document.getElementById("image").innerHTML = '<img src="./images/elements/fire.jpg" alt="fre" width="25%" height="23%" />'
 
     } else if ((inputedZodiac == "Libra") || (inputedZodiac == "Gemini") || (inputedZodiac == "Aquarius")) {
       document.getElementById("elementName").innerHTML =
         "Air!"
       document.getElementById("elementInfo1").innerHTML =
         "Gemini, Libra, and Aquarius represent the intellectual and social Air signs. They tend to allow the universe to lead them in any direction it pleases, and remain at peace wherever they land. Air signs are curious; they seek out connection and knowledge. Most importantly, they are amazing communicators who can engage with almost anyone. Gemini is the easily silenced Air sign, its nature to take on different personalities lends to its adaptability and status as the social butterfly of the zodiac. Libra is often referred to as the basic Air sign, it is more action-oriented and aims to have a balanced life. Libra won't hesitate to find the perfect balance by taking the time to organize and plan. Aquarius is the fixed Air sign, representing a free-spirited attitude and an association with free thinking. However, Aquarius is also disciplined in the way they handle serious cases like money and love. Altogether, Air signs are expert empathizers. They harmonize all that they engage with at an impressive speed and move through life with a sense of trust in the universe."
+      document.getElementById("image").innerHTML = '<img src="./images/elements/air.jpg" alt="air" width="25%" height="23%" />'
 
     } else {
       document.getElementById("elementName").innerHTML =
