@@ -364,3 +364,28 @@ function zodiacButton() {
       "Something went wrong. Please try again."
   }
 }
+
+/**
+ * This function displays an alert for index3
+ * elementsinfo
+ */
+function zodiacButton() {
+  let inputedZodiac = document.getElementById("month").value
+
+  if (inputedZodiac == "Zodiac") {
+    document.getElementById("elementName").innerHTML =
+      "Please select your Zodiac in the selection boxe above..."
+    document.getElementById("elementInfo1").innerHTML =
+      ""
+
+  } else if ((inputedZodiac == "Cancer") || (inputedZodiac == "Scorpio") || (inputedZodiac == "Pisces")) {
+    document.getElementById("elementName").innerHTML =
+      "Water!"
+    document.getElementById("elementInfo1").innerHTML =
+      "Cancer, Scorpio, and Pisces represent the element of Water. They are the most emotional signs within the zodiac and symbolize the fluidity of their element. They are encouraging and thoughtful which allows them to take on the happiness and sorrow of those that they connect with. Cancer forges a close connection to its origins at home. It values the act of care and cherishes its given and chosen families. Scorpio is skilled in the way it understands complicated thoughts and feelings. Its emotions drive all of its actions forward, making Scorpio determined. Finally, Pisces is extra sensitive. They tend to adopt a dreamer attitude but are compassionate. Water signs come together to form the most open-minded signs within the zodiac. It is possible that they might be overlooked due to their changing forms, but they are always aware of how others are feeling."
+  
+  } else {
+    document.getElementById("elementName").innerHTML =
+      "Something went wrong. Please try again."
+  }
+}
