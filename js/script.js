@@ -16,7 +16,7 @@ if (navigator.serviceWorker) {
 }
 
 /**
- * This function displays an alert for index2
+ * This function displays an alert for crystal page
  * crystalInfo
  */
 function crystalButton() {
@@ -38,6 +38,8 @@ function crystalButton() {
     document.getElementById("crystalInfo1").innerHTML =
       ""
     document.getElementById("crystalInfo2").innerHTML =
+      ""
+    document.getElementById("image").innerHTML =
       ""
   } else if (inputedMonth == "January"){
     document.getElementById("crystalName").innerHTML =
@@ -160,7 +162,7 @@ function crystalButton() {
 }
 
 /**
- * This function displays an alert for index3
+ * This function displays an alert for zodiac page
  * zodiacInfo
  */
 function zodiacButton() {
@@ -177,6 +179,8 @@ function zodiacButton() {
     document.getElementById("zodiacInfo3").innerHTML =
       ""
     document.getElementById("zodiacInfo4").innerHTML =
+      ""
+    document.getElementById("image").innerHTML =
       ""
   
   } else if (((inputedMonth == "January") && (inputedDay == "20" || inputedDay == "21" || inputedDay == "22" || inputedDay == "23" || inputedDay == "24" || inputedDay == "25" || inputedDay == "26" || inputedDay == "27" || inputedDay == "28" || inputedDay == "29" || inputedDay == "30" || inputedDay == "31")) || ((inputedMonth == "February") && (inputedDay == "1" || inputedDay == "2" || inputedDay == "3" || inputedDay == "4" || inputedDay == "5" || inputedDay == "6" || inputedDay == "7" || inputedDay == "8" || inputedDay == "9" || inputedDay == "10" || inputedDay == "11" || inputedDay == "12" || inputedDay == "13" || inputedDay == "14" || inputedDay == "15" || inputedDay == "16" || inputedDay == "17" || inputedDay == "18"))) {
@@ -382,6 +386,8 @@ function zodiacButton() {
       ""
     document.getElementById("zodiacInfo4").innerHTML =
       ""
+    document.getElementById("image").innerHTML =
+      ""
     
   } else {
     document.getElementById("zodiacName").innerHTML =
@@ -394,11 +400,13 @@ function zodiacButton() {
       ""
     document.getElementById("zodiacInfo4").innerHTML =
       ""
+    document.getElementById("image").innerHTML =
+      ""
   }
 }
 
 /**
- * This function displays an alert for index3
+ * This function displays an alert for elements page
  * elementsinfo
  */
 function elementsbutton() {
@@ -408,6 +416,8 @@ function elementsbutton() {
     document.getElementById("elementName").innerHTML =
       "Please select your Zodiac in the selection boxe above..."
     document.getElementById("elementInfo1").innerHTML =
+      ""
+    document.getElementById("image").innerHTML =
       ""
 
   } else if ((inputedZodiac == "Cancer") || (inputedZodiac == "Scorpio") || (inputedZodiac == "Pisces")) {
@@ -440,8 +450,10 @@ function elementsbutton() {
 
     } else {
       document.getElementById("elementName").innerHTML =
-      "Something went wrong. Please try again."
+        "Something went wrong. Please try again."
       document.getElementById("elementInfo1").innerHTML =
-      ""
+        ""
+      document.getElementById("image").innerHTML =
+        ""
   }
 }
