@@ -172,6 +172,8 @@ function zodiacButton() {
   if (((inputedMonth == "February") && (inputedDay == "30" || inputedDay == "31")) || ((inputedMonth == "April") && (inputedDay == "31")) || ((inputedMonth == "June") && (inputedDay == "31")) || ((inputedMonth == "September") && (inputedDay == "31")) || ((inputedMonth == "November") && (inputedDay == "31"))) {
     document.getElementById("zodiacName").innerHTML =
       "This day doesn't exist..."
+    document.getElementById("zodiacDate").innerHTML =
+      ""
     document.getElementById("zodiacInfo1").innerHTML =
       ""
     document.getElementById("zodiacInfo2").innerHTML =
@@ -380,6 +382,8 @@ function zodiacButton() {
       "Please select your birthday in the selection boxes above..."
     document.getElementById("zodiacInfo1").innerHTML =
       ""
+    document.getElementById("zodiacDate").innerHTML =
+      ""
     document.getElementById("zodiacInfo2").innerHTML =
       ""
     document.getElementById("zodiacInfo3").innerHTML =
@@ -392,6 +396,8 @@ function zodiacButton() {
   } else {
     document.getElementById("zodiacName").innerHTML =
       "Something went wrong. Please try again."
+    document.getElementById("zodiacDate").innerHTML =
+      ""
     document.getElementById("zodiacInfo1").innerHTML =
       ""
     document.getElementById("zodiacInfo2").innerHTML =
