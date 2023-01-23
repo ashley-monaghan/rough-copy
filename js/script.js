@@ -127,7 +127,7 @@ function crystalButton() {
       "The opal is unique because of its pearlescent patterns that are almost metallic in colour."
     document.getElementById("crystalInfo2").innerHTML =
       "The opal represents a symbol of hope, purity, and truth. They’re also useful in helping to treat fevers and help the immune system. Opal can be used for balance, amplifying positive energy, helping with clarity and working through challenges."
-    document.getElementById("image").innerHTML = '<img src="./images/birthstones/opal.jpg" alt="Opal" width="60%" height="60%" />'
+    document.getElementById("image").innerHTML = '<img src="./images/birthstones/opal.jpg" alt="Opal" width="30%" height="30%" />'
 
   } else if (inputedMonth == "November"){
     document.getElementById("crystalName").innerHTML =
