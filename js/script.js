@@ -118,7 +118,7 @@ function crystalButton() {
       "The sapphire comes in a variety of colours, but is best known for being blue."
     document.getElementById("crystalInfo2").innerHTML =
       "The sapphire is a guardian of innocence, a bestower of truth and a promoter of good health. It helps with focusing and calming the mind, helps remove unwanted thoughts, depression and mental tension. It is claimed to be useful in encouraging faithfulness and loyalty. Sapphire is thought to bring peace of mind, serenity and prosperity."
-    document.getElementById("image").innerHTML = '<img src="./images/birthstones/saphire.jpg" alt="Saphire" />'
+    document.getElementById("image").innerHTML = '<img src="./images/birthstones/saphire.jpg" alt="Saphire" width="70%" height="70%" />'
 
   } else if (inputedMonth == "October"){
     document.getElementById("crystalName").innerHTML =
