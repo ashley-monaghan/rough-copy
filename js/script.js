@@ -293,7 +293,7 @@ function zodiacButton() {
     document.getElementById("zodiacInfo3").innerHTML =
       "Element: Fire"
     document.getElementById("zodiacInfo4").innerHTML =
-      "Ruling Planet: Sun"
+      "Ruling Planet: Sun <p>ㅤ</p>"
     document.getElementById("image").innerHTML = '<img src="./images/zodiacs/leo.png" alt="leo" width="15%" height="15%" />'
 
   
