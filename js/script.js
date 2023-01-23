@@ -229,7 +229,7 @@ function zodiacButton() {
     document.getElementById("zodiacInfo3").innerHTML =
       "Element: Fire"
     document.getElementById("zodiacInfo4").innerHTML =
-      "Ruling Planet: Mars"
+      "Ruling Planet: Mars <p>ㅤ</p>"
     document.getElementById("image").innerHTML = '<img src="./images/zodiacs/aries.png" alt="aries" width="11%" height="9%" />'
 
   
