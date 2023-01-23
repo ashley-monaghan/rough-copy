@@ -198,7 +198,7 @@ function zodiacButton() {
       "Element: Air"
     document.getElementById("zodiacInfo4").innerHTML =
       "Ruling Planet: Uranus"
-      document.getElementById("image").innerHTML = '<img src="./images/zodiacs/aquarius.png" alt="aquarius" width="25%" height="23%" />'
+      document.getElementById("image").innerHTML = '<img src="./images/zodiacs/aquarius.png" alt="aquarius" width="50%" height="50%" />'
 
   
   } else if (((inputedMonth == "February") && (inputedDay == "19" || inputedDay == "20" || inputedDay == "21" || inputedDay == "22" || inputedDay == "23" || inputedDay == "24" || inputedDay == "25" || inputedDay == "26" || inputedDay == "27" || inputedDay == "28" || inputedDay == "29")) || ((inputedMonth == "March") && (inputedDay == "1" || inputedDay == "2" || inputedDay == "3" || inputedDay == "4" || inputedDay == "5" || inputedDay == "6" || inputedDay == "7" || inputedDay == "8" || inputedDay == "9" || inputedDay == "10" || inputedDay == "11" || inputedDay == "12" || inputedDay == "13" || inputedDay == "14" || inputedDay == "15" || inputedDay == "16" || inputedDay == "17" || inputedDay == "18" || inputedDay == "19" || inputedDay == "20"))) {
